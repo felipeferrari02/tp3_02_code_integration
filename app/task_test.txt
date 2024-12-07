@@ -1,4 +1,8 @@
   task_test.c (task_test.h) 
    Non-Blocking & Update By Time Code -> Test Code Integration
+
+En el task_test se definen constantes para valores iniciales y rangos de tiempo
+task_test_dta: Una estructura que guarda información de configuración para las pruebas.
+Se configura un display para mostrar un mensaje de bienvenida y la etiqueta de prueba.
   
 ...
