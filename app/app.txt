@@ -2,4 +2,10 @@
    Endless loops, which execute tasks with fixed computing time. This 
    sequential execution is only deviated from when an interrupt event occurs.
 
+task_cfg_t Define una estructura de configuración de una tarea.
+
+task_cfg_list configura una ista de tareas, donde cada elemento contiene punteros a sus funciones específicas
+
+app_update para cada tarea en task_cfg_list resetea el contador de ciclos, ejecuta task_test_update y mide el 
+tiempo de ejecucion.
 ...
