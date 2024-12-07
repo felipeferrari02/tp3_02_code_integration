@@ -1,4 +1,9 @@
   display.c (display.h)
    Non-Blocking Code -> Display Code Library
+Este código implementa la inicialización y manejo de un módulo de display LCD. 
+displayInit(displayConnection_t connection): Configura el display dependiendo del tipo de conexión GPIO de 4 u 8 bits o I2C.
+displayCharPositionWrite(uint8_t charPositionX, uint8_t charPositionY): Posiciona el cursor del display en una posición específica.
+displayStringWrite(const char *str): Escribe una cadena de texto en el display a partir de la posición actual del cursor.
+
 
 ...
